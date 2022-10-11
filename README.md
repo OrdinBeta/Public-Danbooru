@@ -10,5 +10,9 @@ Go to "https://danbooru.donmai.us/profile", at the bottom of the page, click "vi
 Confirm your password and copy the API key. Don't share your API key with anyone.
 Paste your API key in the "api_key" field and your username in the "username" field.
 
+Right now you can search and retriev artwork by tags, artists, ids, pools, etc. Consult this cheatsheet for more help: "https://danbooru.donmai.us/wiki_pages/help%3Acheatsheet".
+You can also retrieve your profile information with "get_profile_info()".
+Lastly, you can save your search results in a csv and you can also save the artwork in a folder.
+
 ## Requirements
 (PIP): requests, csv, random, re, os, PIL
